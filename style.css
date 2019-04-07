@@ -1,0 +1,39 @@
+body{
+    background-image: url("https://cdna.artstation.com/p/assets/images/images/007/382/318/large/nastya-friday-game-background-2.jpg?1505758831");
+    text-align: center;
+   
+  
+    
+}
+html,
+body {
+  height: 100%;
+}
+#trivia{
+    margin: auto;
+    width:960px;
+    background: yellow;
+    height:650px;
+    padding:0;
+}
+#start{
+    width:50%;
+    height:50px;
+    background:pink;
+    font-size:40px;
+    border:2px solid blue;
+}
+h1{
+    font-size:100px;
+    color:blue;
+    padding:30px;
+    font-weight: bold;
+    font-family:"Geo", "sans-serif";
+}
+#div{
+    top:25%;
+    position: relative;
+}
+
+    
+    
