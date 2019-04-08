@@ -10,7 +10,7 @@ body {
   height: 100%;
 }
 #trivia{
-    margin: auto;
+    margin:0 auto;
     width:960px;
     background: yellow;
     height:650px;
@@ -30,9 +30,17 @@ h1{
     font-weight: bold;
     font-family:"Geo", "sans-serif";
 }
-#div{
+#trivia-btn{
     top:25%;
     position: relative;
+}
+.question{
+    font-size: 30px;
+    width:50%;
+    margin: 0 auto;
+}
+.answer{
+    font-size:40px;
 }
 
     
