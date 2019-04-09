@@ -36,6 +36,13 @@ h1{
     position: relative;
 }
 
+.answer-button{
+    font-size:30px;
+    margin:0 auto;
+    width:60%;
+    background:pink;
+}
+
 
     
     
