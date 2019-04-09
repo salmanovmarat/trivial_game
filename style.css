@@ -15,6 +15,7 @@ body {
     background: yellow;
     height:650px;
     padding:0;
+    height:660px;
 }
 #start{
     width:50%;
@@ -34,14 +35,7 @@ h1{
     top:25%;
     position: relative;
 }
-.question{
-    font-size: 30px;
-    width:50%;
-    margin: 0 auto;
-}
-.answer{
-    font-size:40px;
-}
+
 
     
     
