@@ -57,12 +57,12 @@ var game = {
       $('#counter').html(game.counter);
       if(game.counter<=0){
           console.log("TIME UP!");
-          game.timeUP();
+          game.timeUp();
       }
   },
   loadQuestion: function(){
       timer = setInterval(game.countdown, 1000);
-      $('#trivia-btn').html("<h2>TIME REMAINING <span id='counter'>30</span> Seconds</h2>");
+      $('#trivia-btn').html("<h2>TIME REMAINING: <span id='counter'>30</span> Seconds</h2>");
       $('#trivia-btn').append('<h2>'+questions[game.currentQuestion].question+'</h2>');
       for(var i=0 ; i<questions[game.currentQuestion].answers.length;i++){
           $('#trivia-btn').append('<button class = "answer-button" id="button-'+i+'" data-name="'+questions[game.currentQuestion].answers[i]+'">'+questions[game.currentQuestion].answers[i]+'</button>');
